@@ -1,0 +1,35 @@
+body {
+  background-color: #000; }
+
+h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center; }
+
+#cronometer #hour, #cronometer #minute, #cronometer #second {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  background-color: darkorchid;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+  float: left; }
+
+#cronometer {
+  width: 50%;
+  height: auto;
+  margin: 200px auto; }
+  #cronometer #hour {
+    margin-left: 150px;
+    margin-right: 10px; }
+  #cronometer #minute {
+    margin-right: 10px; }
+
+/*# sourceMappingURL=style.css.map */
